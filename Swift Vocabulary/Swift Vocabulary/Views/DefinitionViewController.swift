@@ -8,20 +8,23 @@
 import UIKit
 
 class DefinitionViewController: UIViewController {
-
+    // MARK: - Properties
+    
     var vocabWord: VocabularyWord?
+    
+    // MARK: - IBOutlets
     
     @IBOutlet var wordLabel: UILabel?
     @IBOutlet var textView: UITextView?
     
-    
+    // MARK: - Views
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         updateViews()
     }
-    
+    // MARK: - Helper Views
     
     func updateViews() {
         guard let swiftWord = vocabWord else { return }
@@ -30,19 +33,6 @@ class DefinitionViewController: UIViewController {
         
         wordLabel?.text = swiftWord.word
         textView?.text = swiftWord.definition
-        
-        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
