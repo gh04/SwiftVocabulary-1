@@ -14,6 +14,7 @@
 		636B27A126795115009FDB6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636B279F26795115009FDB6E /* LaunchScreen.storyboard */; };
 		636B27A926795160009FDB6E /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B27A826795160009FDB6E /* WordsTableViewController.swift */; };
 		636B27AB26795181009FDB6E /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B27AA26795181009FDB6E /* DefinitionViewController.swift */; };
+		636B27AE267954E7009FDB6E /* VocabularyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B27AD267954E7009FDB6E /* VocabularyWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		636B27A226795115009FDB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		636B27A826795160009FDB6E /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
 		636B27AA26795181009FDB6E /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		636B27AD267954E7009FDB6E /* VocabularyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				636B279D26795115009FDB6E /* Assets.xcassets */,
 				636B279F26795115009FDB6E /* LaunchScreen.storyboard */,
 				636B27A226795115009FDB6E /* Info.plist */,
+				636B27AF2679551A009FDB6E /* Model */,
 			);
 			path = "Swift Vocabulary III";
 			sourceTree = "<group>";
@@ -76,6 +79,14 @@
 				636B27AA26795181009FDB6E /* DefinitionViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		636B27AF2679551A009FDB6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				636B27AD267954E7009FDB6E /* VocabularyWord.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			files = (
 				636B279526795114009FDB6E /* AppDelegate.swift in Sources */,
 				636B279726795114009FDB6E /* SceneDelegate.swift in Sources */,
+				636B27AE267954E7009FDB6E /* VocabularyWord.swift in Sources */,
 				636B27A926795160009FDB6E /* WordsTableViewController.swift in Sources */,
 				636B27AB26795181009FDB6E /* DefinitionViewController.swift in Sources */,
 			);
